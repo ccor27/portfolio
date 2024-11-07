@@ -1,0 +1,326 @@
+/*General settings*/
+body{
+  background-color:#3b3b44;
+}
+h1{
+  font-size: 2.5rem;  
+  color: #8c8c91;
+  font-family: "Jersey 10", sans-serif;
+}
+.p-text{
+  font-size: 16px;
+  color: white;
+}
+.text{
+  padding: 20px;
+}
+.learning-topics{
+  color: white;
+}
+/*Nav elements*/
+.navbar-container {
+  background: rgb(195, 190, 196);
+  background-blend-mode: darken;
+  color: white;
+  padding: 10px 20px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin-right: 20px; 
+}
+
+.nav-list li {
+  display: flex; /* Aligns items inside each <li> */
+  align-items: center; /* Centers text vertically with the icon */
+  margin-left: 50px;
+}
+
+.nav-list li:first-child {
+  margin-left: 0; /* Removes left margin for the first item (icon) */
+}
+
+
+.nav-list li a {
+  text-decoration: none;
+  color: rgb(70, 65, 65);
+  font-size: 18px;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-list li a:hover {
+  color: #161616;
+  /* Change the color on hover */
+}
+.navbar-logo {
+  height: 80px; /* Adjust icon size as needed */
+  width: auto;
+  margin-right: 15px; /* Adds space between icon and text */
+}
+.navbar-collapse{
+  align-items: center;
+  justify-content: space-between;
+}
+/*switch languages buttons*/
+.language-switcher button{
+  text-decoration: none;
+  color: rgb(70, 65, 65);
+  font-size: 18px;
+  border: transparent;
+  background-color:  rgb(195, 190, 196);
+}
+/*home section*/
+section{
+  margin-top: 20px;
+  background-color: #3b3b44
+}
+/*skills section*/
+
+.skills{
+  background-color: #3b3b44;
+}
+.skill-block {
+  padding: 20px;
+  margin: 20px;
+  background-color: #3b3b44;
+  border: 2px solid transparent;
+  color: white;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(209, 207, 207, 0.1);
+}
+.skill-block:hover {
+  color: black;
+  background-color: #f8f9fa; /* Light blue on hover */
+}
+
+.skill-block i {
+    font-size: 2.5rem;
+    color: #3067de;
+    background-color: #202024;
+    padding: 15px 19px;
+    border-radius: 50%;
+}
+
+.experiencia-titulo {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.skill-block p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.badges-contenedor {
+  margin-top: 10px;
+}
+
+.badge {
+  background-color: #2d72d9;
+  color: rgb(34, 33, 94);
+  padding: 6px 12px;
+  margin: 5px;
+  font-size: 14px;
+  border-radius: 12px;
+}
+/*project section*/
+.project-section img {
+    height: 200px;
+    width: auto;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+}
+.project-container{
+  padding-top: 10px;
+  margin-top: 20px;
+}
+.project {
+  display: flex;
+  align-items: center; /* Aligns image and text vertically */
+  gap: 20px; /* Space between image and text */
+  padding: 15px;
+  border-radius: 10px;
+  transition: background-color 0.2s ease;
+}
+
+.project:hover {
+  background-color: #f0f0f0; /* Light background on hover */
+}
+.project-description{
+  color: white;
+  flex: 1; /* Makes the text area take up remaining space */
+}
+.project:hover .project-description {
+  color: black;
+}
+
+/* Styling the project links */
+.project-links {
+  margin-top: 10px; /* Space above the icons */
+}
+
+.icon-link {
+  margin-right: 15px; /* Space between icons */
+  color: #333; /* Default icon color */
+  font-size: 24px;
+  transition: color 0.2s ease;
+  text-decoration: none;
+}
+
+.icon-link:hover {
+  color: #007bff; /* Change color on hover, e.g., blue */
+}
+/*form config*/
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #8c8c91;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+/* Social Media Section */
+#social-media {
+  text-align: center;
+  padding: 20px;
+  background-color: #333; /* Adjust the background color as needed */
+}
+
+#social-media h2 {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between icons */
+}
+
+.social-icon {
+  color: white; /* Default icon color */
+  font-size: 30px; /* Adjust icon size */
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: #007bff; /* Change color on hover */
+}
+/* Exploring Section */
+.exploring-section {
+  padding: 40px;
+  background-color: #f9f9f9; /* Light background color */
+  color: #333;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 800px; /* Centered narrow content */
+}
+
+.exploring-section h2 {
+  text-align: center;
+  color: #007bff; /* Customize heading color as per your theme */
+}
+
+.exploring-section p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.learning-topics {
+  list-style-type: circle;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.learning-topics li {
+  padding: 10px 0;
+}
+/* Scroll to Top Button */
+#scrollTopBtn {
+  display: none; /* Hidden by default */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 18px;
+  background-color: #8c8c91; /* Customize button color */
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#scrollTopBtn:hover {
+  background-color: #4d4d55; /* Darker on hover */
+}
+/*responsive*/
+/* Mobile-first approach */
+@media (max-width: 576px) {
+  .navbar-container {
+      flex-direction: column;
+  }
+  .skill-block {
+      margin: 10px 0;
+      padding: 15px;
+  }
+  /* Adjust font sizes for smaller screens */
+  h1, .p-text {
+      font-size: 1.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .skill-block {
+      margin: 20px;
+      padding: 20px;
+  }
+  
+}
+@media (max-width: 768px) {
+  .project-description {
+    margin-bottom: 10px;
+  }
+  .navbar-brand{
+    display: none;
+}
+}
